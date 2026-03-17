@@ -14,6 +14,22 @@ let currentCorrect = 0
 let gameMode = 0
 let questionCount = 0
 
+let perguntas = []
+
+// 🔥 FALLBACK (caso JSON falhe)
+let perguntasFallback = [
+  {
+    question: "Qual país comemora o St. Patrick’s Day?",
+    options: ["Brasil","Irlanda","EUA","Canadá"],
+    answer: "Irlanda"
+  },
+  {
+    question: "Qual cor é símbolo do St. Patrick’s Day?",
+    options: ["Azul","Verde","Vermelho","Amarelo"],
+    answer: "Verde"
+  }
+]
+
 const correctSound = new Audio("sounds/correct.mp3")
 const wrongSound = new Audio("sounds/wrong.mp3")
 const bgMusic = document.getElementById("bgMusic")
@@ -28,275 +44,240 @@ const score2El = document.getElementById("score2")
 const score2box = document.getElementById("score2box")
 
 function garantirFoco(){
-window.focus()
-document.body.setAttribute("tabindex","0")
-document.body.focus()
+  window.focus()
+  document.body.setAttribute("tabindex","0")
+  document.body.focus()
+}
+
+// 🔥 CARREGAR JSON COM SEGURANÇA
+async function carregarPerguntas(){
+  try{
+    const res = await fetch("perguntas.json")
+    perguntas = await res.json()
+  }catch(e){
+    console.error("Erro ao carregar JSON:", e)
+    perguntas = perguntasFallback
+  }
 }
 
 function startGame(n){
-players = n
-document.getElementById("modeSelect").style.display="block"
+  players = n
+  document.getElementById("modeSelect").style.display="block"
 }
 
-function setMode(mode){
+async function setMode(mode){
 
-gameMode = mode
+  gameMode = mode
 
-if(bgMusic){
-bgMusic.volume = 0.2
-bgMusic.play().catch(()=>{})
+  await carregarPerguntas()
+
+  if(bgMusic){
+    bgMusic.volume = 0.2
+    bgMusic.play().catch(()=>{})
+  }
+
+  document.getElementById("setup").style.display="none"
+  document.getElementById("game").style.display="block"
+
+  garantirFoco()
+
+  statusEl.innerText="Player 1 = setas | Player 2 = WASD"
+
+  if(players === 1){
+    score2box.style.display="none"
+  }
+
+  nextQuestion()
 }
 
-document.getElementById("setup").style.display="none"
-document.getElementById("game").style.display="block"
-
-garantirFoco()
-
-statusEl.innerText="Player 1 = setas | Player 2 = WASD"
-
-if(players === 1){
-score2box.style.display="none"
-}
-
-nextQuestion()
-
-}
-
-// 🎮 CONTROLES (FINAL)
+// 🎮 CONTROLES
 document.addEventListener("keydown",(e)=>{
 
-if(answered) return
+  if(answered) return
 
-// 1 PLAYER
-if(players === 1){
+  if(players === 1){
 
-if(e.key==="ArrowUp") answer(0)
-if(e.key==="ArrowRight") answer(1)
-if(e.key==="ArrowDown") answer(2)
-if(e.key==="ArrowLeft") answer(3)
+    if(e.key==="ArrowUp") answer(0)
+    if(e.key==="ArrowRight") answer(1)
+    if(e.key==="ArrowDown") answer(2)
+    if(e.key==="ArrowLeft") answer(3)
 
-return
-}
+    return
+  }
 
-// 2 PLAYERS
+  if(currentPlayer===1){
 
-// PLAYER 1
-if(currentPlayer===1){
+    if(e.key==="ArrowUp") answer(0)
+    if(e.key==="ArrowRight") answer(1)
+    if(e.key==="ArrowDown") answer(2)
+    if(e.key==="ArrowLeft") answer(3)
 
-if(e.key==="ArrowUp") answer(0)
-if(e.key==="ArrowRight") answer(1)
-if(e.key==="ArrowDown") answer(2)
-if(e.key==="ArrowLeft") answer(3)
+  }
 
-}
+  if(currentPlayer===2){
 
-// PLAYER 2
-if(currentPlayer===2){
+    if(e.key==="w" || e.key==="W") answer(0)
+    if(e.key==="d" || e.key==="D") answer(1)
+    if(e.key==="s" || e.key==="S") answer(2)
+    if(e.key==="a" || e.key==="A") answer(3)
 
-if(e.key==="w" || e.key==="W") answer(0)
-if(e.key==="d" || e.key==="D") answer(1)
-if(e.key==="s" || e.key==="S") answer(2)
-if(e.key==="a" || e.key==="A") answer(3)
-
-}
+  }
 
 })
 
-async function nextQuestion(){
+// 🔥 USANDO JSON OU FALLBACK
+function nextQuestion(){
 
-answered=false
-questionCount++
+  answered=false
+  questionCount++
 
-statusEl.innerText="Player "+currentPlayer+" responda"
+  statusEl.innerText="Player "+currentPlayer+" responda"
 
-const categorias=[9,17,22,27]
-let cat=categorias[Math.floor(Math.random()*categorias.length)]
+  let q = perguntas[Math.floor(Math.random()*perguntas.length)]
 
-const data = await fetch(`https://opentdb.com/api.php?amount=1&category=${cat}&type=multiple`)
-const json = await data.json()
+  let answers = [...q.options]
+  answers.sort(()=>Math.random()-0.5)
 
-const q = json.results[0]
+  currentCorrect = answers.indexOf(q.answer)
 
-let answers=[...q.incorrect_answers]
-answers.push(q.correct_answer)
+  questionEl.innerText = q.question
 
-answers.sort(()=>Math.random()-0.5)
+  answersEl.innerHTML=""
 
-currentCorrect = answers.indexOf(q.correct_answer)
+  for(let i=0;i<answers.length;i++){
 
-questionEl.innerText = await traduzir(decode(q.question))
+    let div=document.createElement("div")
+    div.className="answer"
 
-answersEl.innerHTML=""
+    div.innerText = String.fromCharCode(65+i)+") "+answers[i]
 
-for(let i=0;i<answers.length;i++){
+    answersEl.appendChild(div)
 
-let div=document.createElement("div")
-div.className="answer"
+  }
 
-let resposta = await traduzir(decode(answers[i]))
-
-div.innerText = String.fromCharCode(65+i)+") "+resposta
-
-answersEl.appendChild(div)
-
-}
-
-startTimer()
-
+  startTimer()
 }
 
 function startTimer(){
 
-timeLeft=10
-timerEl.innerText=timeLeft
+  timeLeft=10
+  timerEl.innerText=timeLeft
 
-timer=setInterval(()=>{
+  timer=setInterval(()=>{
 
-timeLeft--
-timerEl.innerText=timeLeft
+    timeLeft--
+    timerEl.innerText=timeLeft
 
-if(timeLeft<=0){
+    if(timeLeft<=0){
 
-clearInterval(timer)
-answered=true
-showCorrect()
-nextRound()
+      clearInterval(timer)
+      answered=true
+      showCorrect()
+      nextRound()
 
-}
+    }
 
-},1000)
+  },1000)
 
 }
 
 function answer(index){
 
-if(answered) return
+  if(answered) return
 
-answered=true
-clearInterval(timer)
+  answered=true
+  clearInterval(timer)
 
-let options=document.querySelectorAll(".answer")
+  let options=document.querySelectorAll(".answer")
 
-if(index===currentCorrect){
+  if(index===currentCorrect){
 
-options[index].style.background="green"
-correctSound.play()
+    options[index].style.background="green"
+    correctSound.play()
 
-let points=timeLeft
+    let points=timeLeft
 
-if(currentPlayer===1){
-score1+=points
-score1El.innerText=score1
-}else{
-score2+=points
-score2El.innerText=score2
-}
+    if(currentPlayer===1){
+      score1+=points
+      score1El.innerText=score1
+    }else{
+      score2+=points
+      score2El.innerText=score2
+    }
 
-}else{
+  }else{
 
-options[index].style.background="red"
-options[currentCorrect].style.background="green"
+    options[index].style.background="red"
+    options[currentCorrect].style.background="green"
 
-wrongSound.play()
+    wrongSound.play()
 
-if(currentPlayer===1){
-score1=Math.max(0,score1-5)
-score1El.innerText=score1
-}else{
-score2=Math.max(0,score2-5)
-score2El.innerText=score2
-}
+    if(currentPlayer===1){
+      score1=Math.max(0,score1-5)
+      score1El.innerText=score1
+    }else{
+      score2=Math.max(0,score2-5)
+      score2El.innerText=score2
+    }
 
-}
+  }
 
-nextRound()
-
+  nextRound()
 }
 
 function showCorrect(){
-
-let options=document.querySelectorAll(".answer")
-options[currentCorrect].style.background="green"
-
+  let options=document.querySelectorAll(".answer")
+  options[currentCorrect].style.background="green"
 }
 
 function nextRound(){
 
-let count=3
-statusEl.innerText="Próxima pergunta em "+count
+  let count=3
+  statusEl.innerText="Próxima pergunta em "+count
 
-let countdown=setInterval(()=>{
+  let countdown=setInterval(()=>{
 
-count--
+    count--
 
-if(count<=0){
+    if(count<=0){
 
-clearInterval(countdown)
+      clearInterval(countdown)
 
-if(gameMode===10 && questionCount>=10) return endGame()
-if(gameMode===20 && questionCount>=20) return endGame()
-if(gameMode===100 && (score1>=100 || score2>=100)) return endGame()
+      if(gameMode===10 && questionCount>=10) return endGame()
+      if(gameMode===20 && questionCount>=20) return endGame()
+      if(gameMode===100 && (score1>=100 || score2>=100)) return endGame()
 
-if(players===2){
-currentPlayer = currentPlayer===1 ? 2 : 1
-}
+      if(players===2){
+        currentPlayer = currentPlayer===1 ? 2 : 1
+      }
 
-nextQuestion()
+      nextQuestion()
 
-}else{
+    }else{
+      statusEl.innerText="Próxima pergunta em "+count
+    }
 
-statusEl.innerText="Próxima pergunta em "+count
-
-}
-
-},1000)
+  },1000)
 
 }
 
 function endGame(){
 
-document.getElementById("game").style.display="none"
-document.getElementById("result").style.display="block"
+  document.getElementById("game").style.display="none"
+  document.getElementById("result").style.display="block"
 
-let text=""
+  let text=""
 
-if(players===1){
+  if(players===1){
+    text="Pontuação final: "+score1
+  }else{
 
-text="Pontuação final: "+score1
+    text="Player 1: "+score1+" pontos<br>Player 2: "+score2+" pontos"
 
-}else{
+    if(score1>score2) text+="<br><br>🏆 Player 1 venceu!"
+    if(score2>score1) text+="<br><br>🏆 Player 2 venceu!"
+    if(score1===score2) text+="<br><br>Empate!"
+  }
 
-text="Player 1: "+score1+" pontos<br>Player 2: "+score2+" pontos"
-
-if(score1>score2) text+="<br><br>🏆 Player 1 venceu!"
-if(score2>score1) text+="<br><br>🏆 Player 2 venceu!"
-if(score1===score2) text+="<br><br>Empate!"
-
-}
-
-document.getElementById("finalScore").innerHTML=text
-
-}
-
-function decode(str){
-let txt=document.createElement("textarea")
-txt.innerHTML=str
-return txt.value
-}
-
-async function traduzir(texto){
-
-try{
-
-let url="https://api.mymemory.translated.net/get?q="+encodeURIComponent(texto)+"&langpair=en|pt-BR"
-
-let res=await fetch(url)
-let data=await res.json()
-
-return data.responseData.translatedText
-
-}catch{
-return texto
-}
-
+  document.getElementById("finalScore").innerHTML=text
 }

@@ -1,0 +1,1652 @@
+[
+  {
+    "id": 1,
+    "question": "Qual país comemora o St. Patrick’s Day?",
+    "options": [
+      "Brasil",
+      "Irlanda",
+      "EUA",
+      "Canadá"
+    ],
+    "answer": "Irlanda"
+  },
+  {
+    "id": 2,
+    "question": "Quando é comemorado?",
+    "options": [
+      "25/12",
+      "01/01",
+      "17/03",
+      "31/10"
+    ],
+    "answer": "17/03"
+  },
+  {
+    "id": 3,
+    "question": "Cor principal da data?",
+    "options": [
+      "Azul",
+      "Verde",
+      "Vermelho",
+      "Amarelo"
+    ],
+    "answer": "Verde"
+  },
+  {
+    "id": 4,
+    "question": "O que é um leprechaun?",
+    "options": [
+      "Gigante",
+      "Duende",
+      "Fantasma",
+      "Dragão"
+    ],
+    "answer": "Duende"
+  },
+  {
+    "id": 5,
+    "question": "Planta símbolo?",
+    "options": [
+      "Rosa",
+      "Trevo",
+      "Girassol",
+      "Lírio"
+    ],
+    "answer": "Trevo"
+  },
+  {
+    "id": 6,
+    "question": "Trevo tradicional tem quantas folhas?",
+    "options": [
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "answer": "3"
+  },
+  {
+    "id": 7,
+    "question": "Onde fica o pote de ouro?",
+    "options": [
+      "Mar",
+      "Fim do arco-íris",
+      "Floresta",
+      "Montanha"
+    ],
+    "answer": "Fim do arco-íris"
+  },
+  {
+    "id": 8,
+    "question": "Cidade que pinta rio de verde?",
+    "options": [
+      "Paris",
+      "Roma",
+      "Chicago",
+      "Lisboa"
+    ],
+    "answer": "Chicago"
+  },
+  {
+    "id": 9,
+    "question": "St. Patrick nasceu na Irlanda?",
+    "options": [
+      "Sim",
+      "Não",
+      "Talvez",
+      "Ninguém sabe"
+    ],
+    "answer": "Não"
+  },
+  {
+    "id": 10,
+    "question": "Religião que ele espalhou?",
+    "options": [
+      "Budismo",
+      "Cristianismo",
+      "Islamismo",
+      "Hinduísmo"
+    ],
+    "answer": "Cristianismo"
+  },
+  {
+    "id": 11,
+    "question": "Idioma além do inglês na Irlanda?",
+    "options": [
+      "Francês",
+      "Gaélico",
+      "Italiano",
+      "Espanhol"
+    ],
+    "answer": "Gaélico"
+  },
+  {
+    "id": 12,
+    "question": "Trevo representa o quê?",
+    "options": [
+      "Dinheiro",
+      "Trindade",
+      "Sorte",
+      "Amizade"
+    ],
+    "answer": "Trindade"
+  },
+  {
+    "id": 13,
+    "question": "Leprechauns guardam?",
+    "options": [
+      "Comida",
+      "Ouro",
+      "Roupas",
+      "Livros"
+    ],
+    "answer": "Ouro"
+  },
+  {
+    "id": 14,
+    "question": "Feriado na Irlanda?",
+    "options": [
+      "Sim",
+      "Não",
+      "Só crianças",
+      "Só adultos"
+    ],
+    "answer": "Sim"
+  },
+  {
+    "id": 15,
+    "question": "Bebida comum?",
+    "options": [
+      "Suco",
+      "Cerveja",
+      "Leite",
+      "Chá"
+    ],
+    "answer": "Cerveja"
+  },
+  {
+    "id": 16,
+    "question": "Trevo de 4 folhas é?",
+    "options": [
+      "Comum",
+      "Raro",
+      "Falso",
+      "Grande"
+    ],
+    "answer": "Raro"
+  },
+  {
+    "id": 17,
+    "question": "O arco-íris leva a?",
+    "options": [
+      "Cidade",
+      "Tesouro",
+      "Castelo",
+      "Rio"
+    ],
+    "answer": "Tesouro"
+  },
+  {
+    "id": 18,
+    "question": "Capital da Irlanda?",
+    "options": [
+      "Dublin",
+      "Cork",
+      "Paris",
+      "Londres"
+    ],
+    "answer": "Dublin"
+  },
+  {
+    "id": 19,
+    "question": "Cor não típica?",
+    "options": [
+      "Verde",
+      "Dourado",
+      "Rosa",
+      "Branco"
+    ],
+    "answer": "Rosa"
+  },
+  {
+    "id": 20,
+    "question": "Símbolo nacional?",
+    "options": [
+      "Leão",
+      "Harpa",
+      "Águia",
+      "Cavalo"
+    ],
+    "answer": "Harpa"
+  },
+  {
+    "id": 21,
+    "question": "Leprechaun trabalha como?",
+    "options": [
+      "Ferreiro",
+      "Sapateiro",
+      "Pescador",
+      "Professor"
+    ],
+    "answer": "Sapateiro"
+  },
+  {
+    "id": 22,
+    "question": "Celebrado também nos EUA?",
+    "options": [
+      "Sim",
+      "Não",
+      "Pouco",
+      "Nunca"
+    ],
+    "answer": "Sim"
+  },
+  {
+    "id": 23,
+    "question": "Origem da festa?",
+    "options": [
+      "Religiosa",
+      "Esportiva",
+      "Musical",
+      "Tecnológica"
+    ],
+    "answer": "Religiosa"
+  },
+  {
+    "id": 24,
+    "question": "Significado de verde?",
+    "options": [
+      "Medo",
+      "Irlanda",
+      "Guerra",
+      "Fome"
+    ],
+    "answer": "Irlanda"
+  },
+  {
+    "id": 25,
+    "question": "Animal expulso segundo lenda?",
+    "options": [
+      "Ratos",
+      "Cobras",
+      "Leões",
+      "Cães"
+    ],
+    "answer": "Cobras"
+  },
+  {
+    "id": 26,
+    "question": "Chapéu do leprechaun?",
+    "options": [
+      "Azul",
+      "Verde",
+      "Preto",
+      "Vermelho"
+    ],
+    "answer": "Verde"
+  },
+  {
+    "id": 27,
+    "question": "Leprechaun é?",
+    "options": [
+      "Animal",
+      "Humano",
+      "Mítico",
+      "Planta"
+    ],
+    "answer": "Mítico"
+  },
+  {
+    "id": 28,
+    "question": "Arco-íris aparece quando?",
+    "options": [
+      "Chuva+sol",
+      "Neve",
+      "Noite",
+      "Seca"
+    ],
+    "answer": "Chuva+sol"
+  },
+  {
+    "id": 29,
+    "question": "Irlanda fica em qual continente?",
+    "options": [
+      "Ásia",
+      "Europa",
+      "África",
+      "América"
+    ],
+    "answer": "Europa"
+  },
+  {
+    "id": 30,
+    "question": "Cultura associada?",
+    "options": [
+      "Celta",
+      "Romana",
+      "Egípcia",
+      "Grega"
+    ],
+    "answer": "Celta"
+  },
+  {
+    "id": 31,
+    "question": "Nome original de St Patrick?",
+    "options": [
+      "Maewyn Succat",
+      "John",
+      "Peter",
+      "Liam"
+    ],
+    "answer": "Maewyn Succat"
+  },
+  {
+    "id": 32,
+    "question": "Foi levado como?",
+    "options": [
+      "Rei",
+      "Escravo",
+      "Soldado",
+      "Professor"
+    ],
+    "answer": "Escravo"
+  },
+  {
+    "id": 33,
+    "question": "Maior desfile fora da Irlanda?",
+    "options": [
+      "Chicago",
+      "NY",
+      "Boston",
+      "Miami"
+    ],
+    "answer": "NY"
+  },
+  {
+    "id": 34,
+    "question": "Erin go Bragh significa?",
+    "options": [
+      "Boa sorte",
+      "Irlanda para sempre",
+      "Dia feliz",
+      "Festa"
+    ],
+    "answer": "Irlanda para sempre"
+  },
+  {
+    "id": 35,
+    "question": "Rio verde dura quanto?",
+    "options": [
+      "Horas",
+      "Dias",
+      "Meses",
+      "Minutos"
+    ],
+    "answer": "Horas"
+  },
+  {
+    "id": 36,
+    "question": "Irlanda é chamada de?",
+    "options": [
+      "Ilha Azul",
+      "Ilha Esmeralda",
+      "Ilha Vermelha",
+      "Ilha Branca"
+    ],
+    "answer": "Ilha Esmeralda"
+  },
+  {
+    "id": 37,
+    "question": "Evento envolve dança?",
+    "options": [
+      "Sim",
+      "Não",
+      "Pouco",
+      "Nunca"
+    ],
+    "answer": "Sim"
+  },
+  {
+    "id": 38,
+    "question": "Música típica?",
+    "options": [
+      "Rock",
+      "Celta",
+      "Pop",
+      "Jazz"
+    ],
+    "answer": "Celta"
+  },
+  {
+    "id": 39,
+    "question": "Leprechaun é conhecido por ser?",
+    "options": [
+      "Gentil",
+      "Travesso",
+      "Forte",
+      "Lento"
+    ],
+    "answer": "Travesso"
+  },
+  {
+    "id": 40,
+    "question": "Trevo em inglês?",
+    "options": [
+      "Leaf",
+      "Clover",
+      "Plant",
+      "Green"
+    ],
+    "answer": "Clover"
+  },
+  {
+    "id": 41,
+    "question": "Cor original do santo?",
+    "options": [
+      "Verde",
+      "Azul",
+      "Amarelo",
+      "Preto"
+    ],
+    "answer": "Azul"
+  },
+  {
+    "id": 42,
+    "question": "Dia celebra?",
+    "options": [
+      "Tecnologia",
+      "Cultura irlandesa",
+      "Guerra",
+      "Esporte"
+    ],
+    "answer": "Cultura irlandesa"
+  },
+  {
+    "id": 43,
+    "question": "Irlanda tem muitos?",
+    "options": [
+      "Desertos",
+      "Campos verdes",
+      "Geleiras",
+      "Selvas"
+    ],
+    "answer": "Campos verdes"
+  },
+  {
+    "id": 44,
+    "question": "Símbolo da sorte?",
+    "options": [
+      "Lua",
+      "Trevo",
+      "Estrela",
+      "Nuvem"
+    ],
+    "answer": "Trevo"
+  },
+  {
+    "id": 45,
+    "question": "Comida típica?",
+    "options": [
+      "Sushi",
+      "Batata",
+      "Pizza",
+      "Hamburguer"
+    ],
+    "answer": "Batata"
+  },
+  {
+    "id": 46,
+    "question": "Evento global?",
+    "options": [
+      "Sim",
+      "Não",
+      "Pouco",
+      "Local"
+    ],
+    "answer": "Sim"
+  },
+  {
+    "id": 47,
+    "question": "Leprechaun vive onde?",
+    "options": [
+      "Cidade",
+      "Floresta",
+      "Mar",
+      "Deserto"
+    ],
+    "answer": "Floresta"
+  },
+  {
+    "id": 48,
+    "question": "Objetivo da data?",
+    "options": [
+      "Trabalhar",
+      "Celebrar cultura",
+      "Dormir",
+      "Viajar"
+    ],
+    "answer": "Celebrar cultura"
+  },
+  {
+    "id": 49,
+    "question": "Símbolo ouro representa?",
+    "options": [
+      "Medo",
+      "Riqueza",
+      "Tristeza",
+      "Raiva"
+    ],
+    "answer": "Riqueza"
+  },
+  {
+    "id": 50,
+    "question": "Qual planeta é conhecido como planeta vermelho? (variação 1)",
+    "options": [
+      "Terra",
+      "Marte",
+      "Júpiter",
+      "Saturno"
+    ],
+    "answer": "Marte"
+  },
+  {
+    "id": 51,
+    "question": "Qual é o maior animal do mundo? (variação 2)",
+    "options": [
+      "Elefante",
+      "Baleia azul",
+      "Girafa",
+      "Tubarão"
+    ],
+    "answer": "Baleia azul"
+  },
+  {
+    "id": 52,
+    "question": "Quantos dias tem uma semana? (variação 3)",
+    "options": [
+      "5",
+      "6",
+      "7",
+      "8"
+    ],
+    "answer": "7"
+  },
+  {
+    "id": 53,
+    "question": "Qual animal mia? (variação 4)",
+    "options": [
+      "Cachorro",
+      "Gato",
+      "Vaca",
+      "Cavalo"
+    ],
+    "answer": "Gato"
+  },
+  {
+    "id": 54,
+    "question": "Qual cor resulta de azul + amarelo? (variação 5)",
+    "options": [
+      "Verde",
+      "Roxo",
+      "Laranja",
+      "Preto"
+    ],
+    "answer": "Verde"
+  },
+  {
+    "id": 55,
+    "question": "Quem pintou a Mona Lisa? (variação 6)",
+    "options": [
+      "Van Gogh",
+      "Da Vinci",
+      "Picasso",
+      "Michelangelo"
+    ],
+    "answer": "Da Vinci"
+  },
+  {
+    "id": 56,
+    "question": "Qual é o maior planeta? (variação 7)",
+    "options": [
+      "Terra",
+      "Marte",
+      "Júpiter",
+      "Vênus"
+    ],
+    "answer": "Júpiter"
+  },
+  {
+    "id": 57,
+    "question": "Qual animal é o rei da selva? (variação 8)",
+    "options": [
+      "Tigre",
+      "Leão",
+      "Elefante",
+      "Urso"
+    ],
+    "answer": "Leão"
+  },
+  {
+    "id": 58,
+    "question": "Qual é o oposto de quente? (variação 9)",
+    "options": [
+      "Frio",
+      "Quente",
+      "Morno",
+      "Seco"
+    ],
+    "answer": "Frio"
+  },
+  {
+    "id": 59,
+    "question": "Quantas patas tem uma aranha? (variação 10)",
+    "options": [
+      "6",
+      "8",
+      "10",
+      "12"
+    ],
+    "answer": "8"
+  },
+  {
+    "id": 60,
+    "question": "Qual planeta é conhecido como planeta vermelho? (variação 11)",
+    "options": [
+      "Terra",
+      "Marte",
+      "Júpiter",
+      "Saturno"
+    ],
+    "answer": "Marte"
+  },
+  {
+    "id": 61,
+    "question": "Qual é o maior animal do mundo? (variação 12)",
+    "options": [
+      "Elefante",
+      "Baleia azul",
+      "Girafa",
+      "Tubarão"
+    ],
+    "answer": "Baleia azul"
+  },
+  {
+    "id": 62,
+    "question": "Quantos dias tem uma semana? (variação 13)",
+    "options": [
+      "5",
+      "6",
+      "7",
+      "8"
+    ],
+    "answer": "7"
+  },
+  {
+    "id": 63,
+    "question": "Qual animal mia? (variação 14)",
+    "options": [
+      "Cachorro",
+      "Gato",
+      "Vaca",
+      "Cavalo"
+    ],
+    "answer": "Gato"
+  },
+  {
+    "id": 64,
+    "question": "Qual cor resulta de azul + amarelo? (variação 15)",
+    "options": [
+      "Verde",
+      "Roxo",
+      "Laranja",
+      "Preto"
+    ],
+    "answer": "Verde"
+  },
+  {
+    "id": 65,
+    "question": "Quem pintou a Mona Lisa? (variação 16)",
+    "options": [
+      "Van Gogh",
+      "Da Vinci",
+      "Picasso",
+      "Michelangelo"
+    ],
+    "answer": "Da Vinci"
+  },
+  {
+    "id": 66,
+    "question": "Qual é o maior planeta? (variação 17)",
+    "options": [
+      "Terra",
+      "Marte",
+      "Júpiter",
+      "Vênus"
+    ],
+    "answer": "Júpiter"
+  },
+  {
+    "id": 67,
+    "question": "Qual animal é o rei da selva? (variação 18)",
+    "options": [
+      "Tigre",
+      "Leão",
+      "Elefante",
+      "Urso"
+    ],
+    "answer": "Leão"
+  },
+  {
+    "id": 68,
+    "question": "Qual é o oposto de quente? (variação 19)",
+    "options": [
+      "Frio",
+      "Quente",
+      "Morno",
+      "Seco"
+    ],
+    "answer": "Frio"
+  },
+  {
+    "id": 69,
+    "question": "Quantas patas tem uma aranha? (variação 20)",
+    "options": [
+      "6",
+      "8",
+      "10",
+      "12"
+    ],
+    "answer": "8"
+  },
+  {
+    "id": 70,
+    "question": "Qual planeta é conhecido como planeta vermelho? (variação 21)",
+    "options": [
+      "Terra",
+      "Marte",
+      "Júpiter",
+      "Saturno"
+    ],
+    "answer": "Marte"
+  },
+  {
+    "id": 71,
+    "question": "Qual é o maior animal do mundo? (variação 22)",
+    "options": [
+      "Elefante",
+      "Baleia azul",
+      "Girafa",
+      "Tubarão"
+    ],
+    "answer": "Baleia azul"
+  },
+  {
+    "id": 72,
+    "question": "Quantos dias tem uma semana? (variação 23)",
+    "options": [
+      "5",
+      "6",
+      "7",
+      "8"
+    ],
+    "answer": "7"
+  },
+  {
+    "id": 73,
+    "question": "Qual animal mia? (variação 24)",
+    "options": [
+      "Cachorro",
+      "Gato",
+      "Vaca",
+      "Cavalo"
+    ],
+    "answer": "Gato"
+  },
+  {
+    "id": 74,
+    "question": "Qual cor resulta de azul + amarelo? (variação 25)",
+    "options": [
+      "Verde",
+      "Roxo",
+      "Laranja",
+      "Preto"
+    ],
+    "answer": "Verde"
+  },
+  {
+    "id": 75,
+    "question": "Quem pintou a Mona Lisa? (variação 26)",
+    "options": [
+      "Van Gogh",
+      "Da Vinci",
+      "Picasso",
+      "Michelangelo"
+    ],
+    "answer": "Da Vinci"
+  },
+  {
+    "id": 76,
+    "question": "Qual é o maior planeta? (variação 27)",
+    "options": [
+      "Terra",
+      "Marte",
+      "Júpiter",
+      "Vênus"
+    ],
+    "answer": "Júpiter"
+  },
+  {
+    "id": 77,
+    "question": "Qual animal é o rei da selva? (variação 28)",
+    "options": [
+      "Tigre",
+      "Leão",
+      "Elefante",
+      "Urso"
+    ],
+    "answer": "Leão"
+  },
+  {
+    "id": 78,
+    "question": "Qual é o oposto de quente? (variação 29)",
+    "options": [
+      "Frio",
+      "Quente",
+      "Morno",
+      "Seco"
+    ],
+    "answer": "Frio"
+  },
+  {
+    "id": 79,
+    "question": "Quantas patas tem uma aranha? (variação 30)",
+    "options": [
+      "6",
+      "8",
+      "10",
+      "12"
+    ],
+    "answer": "8"
+  },
+  {
+    "id": 80,
+    "question": "Qual planeta é conhecido como planeta vermelho? (variação 31)",
+    "options": [
+      "Terra",
+      "Marte",
+      "Júpiter",
+      "Saturno"
+    ],
+    "answer": "Marte"
+  },
+  {
+    "id": 81,
+    "question": "Qual é o maior animal do mundo? (variação 32)",
+    "options": [
+      "Elefante",
+      "Baleia azul",
+      "Girafa",
+      "Tubarão"
+    ],
+    "answer": "Baleia azul"
+  },
+  {
+    "id": 82,
+    "question": "Quantos dias tem uma semana? (variação 33)",
+    "options": [
+      "5",
+      "6",
+      "7",
+      "8"
+    ],
+    "answer": "7"
+  },
+  {
+    "id": 83,
+    "question": "Qual animal mia? (variação 34)",
+    "options": [
+      "Cachorro",
+      "Gato",
+      "Vaca",
+      "Cavalo"
+    ],
+    "answer": "Gato"
+  },
+  {
+    "id": 84,
+    "question": "Qual cor resulta de azul + amarelo? (variação 35)",
+    "options": [
+      "Verde",
+      "Roxo",
+      "Laranja",
+      "Preto"
+    ],
+    "answer": "Verde"
+  },
+  {
+    "id": 85,
+    "question": "Quem pintou a Mona Lisa? (variação 36)",
+    "options": [
+      "Van Gogh",
+      "Da Vinci",
+      "Picasso",
+      "Michelangelo"
+    ],
+    "answer": "Da Vinci"
+  },
+  {
+    "id": 86,
+    "question": "Qual é o maior planeta? (variação 37)",
+    "options": [
+      "Terra",
+      "Marte",
+      "Júpiter",
+      "Vênus"
+    ],
+    "answer": "Júpiter"
+  },
+  {
+    "id": 87,
+    "question": "Qual animal é o rei da selva? (variação 38)",
+    "options": [
+      "Tigre",
+      "Leão",
+      "Elefante",
+      "Urso"
+    ],
+    "answer": "Leão"
+  },
+  {
+    "id": 88,
+    "question": "Qual é o oposto de quente? (variação 39)",
+    "options": [
+      "Frio",
+      "Quente",
+      "Morno",
+      "Seco"
+    ],
+    "answer": "Frio"
+  },
+  {
+    "id": 89,
+    "question": "Quantas patas tem uma aranha? (variação 40)",
+    "options": [
+      "6",
+      "8",
+      "10",
+      "12"
+    ],
+    "answer": "8"
+  },
+  {
+    "id": 90,
+    "question": "Qual planeta é conhecido como planeta vermelho? (variação 41)",
+    "options": [
+      "Terra",
+      "Marte",
+      "Júpiter",
+      "Saturno"
+    ],
+    "answer": "Marte"
+  },
+  {
+    "id": 91,
+    "question": "Qual é o maior animal do mundo? (variação 42)",
+    "options": [
+      "Elefante",
+      "Baleia azul",
+      "Girafa",
+      "Tubarão"
+    ],
+    "answer": "Baleia azul"
+  },
+  {
+    "id": 92,
+    "question": "Quantos dias tem uma semana? (variação 43)",
+    "options": [
+      "5",
+      "6",
+      "7",
+      "8"
+    ],
+    "answer": "7"
+  },
+  {
+    "id": 93,
+    "question": "Qual animal mia? (variação 44)",
+    "options": [
+      "Cachorro",
+      "Gato",
+      "Vaca",
+      "Cavalo"
+    ],
+    "answer": "Gato"
+  },
+  {
+    "id": 94,
+    "question": "Qual cor resulta de azul + amarelo? (variação 45)",
+    "options": [
+      "Verde",
+      "Roxo",
+      "Laranja",
+      "Preto"
+    ],
+    "answer": "Verde"
+  },
+  {
+    "id": 95,
+    "question": "Quem pintou a Mona Lisa? (variação 46)",
+    "options": [
+      "Van Gogh",
+      "Da Vinci",
+      "Picasso",
+      "Michelangelo"
+    ],
+    "answer": "Da Vinci"
+  },
+  {
+    "id": 96,
+    "question": "Qual é o maior planeta? (variação 47)",
+    "options": [
+      "Terra",
+      "Marte",
+      "Júpiter",
+      "Vênus"
+    ],
+    "answer": "Júpiter"
+  },
+  {
+    "id": 97,
+    "question": "Qual animal é o rei da selva? (variação 48)",
+    "options": [
+      "Tigre",
+      "Leão",
+      "Elefante",
+      "Urso"
+    ],
+    "answer": "Leão"
+  },
+  {
+    "id": 98,
+    "question": "Qual é o oposto de quente? (variação 49)",
+    "options": [
+      "Frio",
+      "Quente",
+      "Morno",
+      "Seco"
+    ],
+    "answer": "Frio"
+  },
+  {
+    "id": 99,
+    "question": "Quantas patas tem uma aranha? (variação 50)",
+    "options": [
+      "6",
+      "8",
+      "10",
+      "12"
+    ],
+    "answer": "8"
+  },
+  {
+    "id": 100,
+    "question": "Qual planeta é conhecido como planeta vermelho? (variação 51)",
+    "options": [
+      "Terra",
+      "Marte",
+      "Júpiter",
+      "Saturno"
+    ],
+    "answer": "Marte"
+  },
+  {
+    "id": 101,
+    "question": "Qual é o maior animal do mundo? (variação 52)",
+    "options": [
+      "Elefante",
+      "Baleia azul",
+      "Girafa",
+      "Tubarão"
+    ],
+    "answer": "Baleia azul"
+  },
+  {
+    "id": 102,
+    "question": "Quantos dias tem uma semana? (variação 53)",
+    "options": [
+      "5",
+      "6",
+      "7",
+      "8"
+    ],
+    "answer": "7"
+  },
+  {
+    "id": 103,
+    "question": "Qual animal mia? (variação 54)",
+    "options": [
+      "Cachorro",
+      "Gato",
+      "Vaca",
+      "Cavalo"
+    ],
+    "answer": "Gato"
+  },
+  {
+    "id": 104,
+    "question": "Qual cor resulta de azul + amarelo? (variação 55)",
+    "options": [
+      "Verde",
+      "Roxo",
+      "Laranja",
+      "Preto"
+    ],
+    "answer": "Verde"
+  },
+  {
+    "id": 105,
+    "question": "Quem pintou a Mona Lisa? (variação 56)",
+    "options": [
+      "Van Gogh",
+      "Da Vinci",
+      "Picasso",
+      "Michelangelo"
+    ],
+    "answer": "Da Vinci"
+  },
+  {
+    "id": 106,
+    "question": "Qual é o maior planeta? (variação 57)",
+    "options": [
+      "Terra",
+      "Marte",
+      "Júpiter",
+      "Vênus"
+    ],
+    "answer": "Júpiter"
+  },
+  {
+    "id": 107,
+    "question": "Qual animal é o rei da selva? (variação 58)",
+    "options": [
+      "Tigre",
+      "Leão",
+      "Elefante",
+      "Urso"
+    ],
+    "answer": "Leão"
+  },
+  {
+    "id": 108,
+    "question": "Qual é o oposto de quente? (variação 59)",
+    "options": [
+      "Frio",
+      "Quente",
+      "Morno",
+      "Seco"
+    ],
+    "answer": "Frio"
+  },
+  {
+    "id": 109,
+    "question": "Quantas patas tem uma aranha? (variação 60)",
+    "options": [
+      "6",
+      "8",
+      "10",
+      "12"
+    ],
+    "answer": "8"
+  },
+  {
+    "id": 110,
+    "question": "Qual planeta é conhecido como planeta vermelho? (variação 61)",
+    "options": [
+      "Terra",
+      "Marte",
+      "Júpiter",
+      "Saturno"
+    ],
+    "answer": "Marte"
+  },
+  {
+    "id": 111,
+    "question": "Qual é o maior animal do mundo? (variação 62)",
+    "options": [
+      "Elefante",
+      "Baleia azul",
+      "Girafa",
+      "Tubarão"
+    ],
+    "answer": "Baleia azul"
+  },
+  {
+    "id": 112,
+    "question": "Quantos dias tem uma semana? (variação 63)",
+    "options": [
+      "5",
+      "6",
+      "7",
+      "8"
+    ],
+    "answer": "7"
+  },
+  {
+    "id": 113,
+    "question": "Qual animal mia? (variação 64)",
+    "options": [
+      "Cachorro",
+      "Gato",
+      "Vaca",
+      "Cavalo"
+    ],
+    "answer": "Gato"
+  },
+  {
+    "id": 114,
+    "question": "Qual cor resulta de azul + amarelo? (variação 65)",
+    "options": [
+      "Verde",
+      "Roxo",
+      "Laranja",
+      "Preto"
+    ],
+    "answer": "Verde"
+  },
+  {
+    "id": 115,
+    "question": "Quem pintou a Mona Lisa? (variação 66)",
+    "options": [
+      "Van Gogh",
+      "Da Vinci",
+      "Picasso",
+      "Michelangelo"
+    ],
+    "answer": "Da Vinci"
+  },
+  {
+    "id": 116,
+    "question": "Qual é o maior planeta? (variação 67)",
+    "options": [
+      "Terra",
+      "Marte",
+      "Júpiter",
+      "Vênus"
+    ],
+    "answer": "Júpiter"
+  },
+  {
+    "id": 117,
+    "question": "Qual animal é o rei da selva? (variação 68)",
+    "options": [
+      "Tigre",
+      "Leão",
+      "Elefante",
+      "Urso"
+    ],
+    "answer": "Leão"
+  },
+  {
+    "id": 118,
+    "question": "Qual é o oposto de quente? (variação 69)",
+    "options": [
+      "Frio",
+      "Quente",
+      "Morno",
+      "Seco"
+    ],
+    "answer": "Frio"
+  },
+  {
+    "id": 119,
+    "question": "Quantas patas tem uma aranha? (variação 70)",
+    "options": [
+      "6",
+      "8",
+      "10",
+      "12"
+    ],
+    "answer": "8"
+  },
+  {
+    "id": 120,
+    "question": "Qual planeta é conhecido como planeta vermelho? (variação 71)",
+    "options": [
+      "Terra",
+      "Marte",
+      "Júpiter",
+      "Saturno"
+    ],
+    "answer": "Marte"
+  },
+  {
+    "id": 121,
+    "question": "Qual é o maior animal do mundo? (variação 72)",
+    "options": [
+      "Elefante",
+      "Baleia azul",
+      "Girafa",
+      "Tubarão"
+    ],
+    "answer": "Baleia azul"
+  },
+  {
+    "id": 122,
+    "question": "Quantos dias tem uma semana? (variação 73)",
+    "options": [
+      "5",
+      "6",
+      "7",
+      "8"
+    ],
+    "answer": "7"
+  },
+  {
+    "id": 123,
+    "question": "Qual animal mia? (variação 74)",
+    "options": [
+      "Cachorro",
+      "Gato",
+      "Vaca",
+      "Cavalo"
+    ],
+    "answer": "Gato"
+  },
+  {
+    "id": 124,
+    "question": "Qual cor resulta de azul + amarelo? (variação 75)",
+    "options": [
+      "Verde",
+      "Roxo",
+      "Laranja",
+      "Preto"
+    ],
+    "answer": "Verde"
+  },
+  {
+    "id": 125,
+    "question": "Quem pintou a Mona Lisa? (variação 76)",
+    "options": [
+      "Van Gogh",
+      "Da Vinci",
+      "Picasso",
+      "Michelangelo"
+    ],
+    "answer": "Da Vinci"
+  },
+  {
+    "id": 126,
+    "question": "Qual é o maior planeta? (variação 77)",
+    "options": [
+      "Terra",
+      "Marte",
+      "Júpiter",
+      "Vênus"
+    ],
+    "answer": "Júpiter"
+  },
+  {
+    "id": 127,
+    "question": "Qual animal é o rei da selva? (variação 78)",
+    "options": [
+      "Tigre",
+      "Leão",
+      "Elefante",
+      "Urso"
+    ],
+    "answer": "Leão"
+  },
+  {
+    "id": 128,
+    "question": "Qual é o oposto de quente? (variação 79)",
+    "options": [
+      "Frio",
+      "Quente",
+      "Morno",
+      "Seco"
+    ],
+    "answer": "Frio"
+  },
+  {
+    "id": 129,
+    "question": "Quantas patas tem uma aranha? (variação 80)",
+    "options": [
+      "6",
+      "8",
+      "10",
+      "12"
+    ],
+    "answer": "8"
+  },
+  {
+    "id": 130,
+    "question": "Qual planeta é conhecido como planeta vermelho? (variação 81)",
+    "options": [
+      "Terra",
+      "Marte",
+      "Júpiter",
+      "Saturno"
+    ],
+    "answer": "Marte"
+  },
+  {
+    "id": 131,
+    "question": "Qual é o maior animal do mundo? (variação 82)",
+    "options": [
+      "Elefante",
+      "Baleia azul",
+      "Girafa",
+      "Tubarão"
+    ],
+    "answer": "Baleia azul"
+  },
+  {
+    "id": 132,
+    "question": "Quantos dias tem uma semana? (variação 83)",
+    "options": [
+      "5",
+      "6",
+      "7",
+      "8"
+    ],
+    "answer": "7"
+  },
+  {
+    "id": 133,
+    "question": "Qual animal mia? (variação 84)",
+    "options": [
+      "Cachorro",
+      "Gato",
+      "Vaca",
+      "Cavalo"
+    ],
+    "answer": "Gato"
+  },
+  {
+    "id": 134,
+    "question": "Qual cor resulta de azul + amarelo? (variação 85)",
+    "options": [
+      "Verde",
+      "Roxo",
+      "Laranja",
+      "Preto"
+    ],
+    "answer": "Verde"
+  },
+  {
+    "id": 135,
+    "question": "Quem pintou a Mona Lisa? (variação 86)",
+    "options": [
+      "Van Gogh",
+      "Da Vinci",
+      "Picasso",
+      "Michelangelo"
+    ],
+    "answer": "Da Vinci"
+  },
+  {
+    "id": 136,
+    "question": "Qual é o maior planeta? (variação 87)",
+    "options": [
+      "Terra",
+      "Marte",
+      "Júpiter",
+      "Vênus"
+    ],
+    "answer": "Júpiter"
+  },
+  {
+    "id": 137,
+    "question": "Qual animal é o rei da selva? (variação 88)",
+    "options": [
+      "Tigre",
+      "Leão",
+      "Elefante",
+      "Urso"
+    ],
+    "answer": "Leão"
+  },
+  {
+    "id": 138,
+    "question": "Qual é o oposto de quente? (variação 89)",
+    "options": [
+      "Frio",
+      "Quente",
+      "Morno",
+      "Seco"
+    ],
+    "answer": "Frio"
+  },
+  {
+    "id": 139,
+    "question": "Quantas patas tem uma aranha? (variação 90)",
+    "options": [
+      "6",
+      "8",
+      "10",
+      "12"
+    ],
+    "answer": "8"
+  },
+  {
+    "id": 140,
+    "question": "Qual planeta é conhecido como planeta vermelho? (variação 91)",
+    "options": [
+      "Terra",
+      "Marte",
+      "Júpiter",
+      "Saturno"
+    ],
+    "answer": "Marte"
+  },
+  {
+    "id": 141,
+    "question": "Qual é o maior animal do mundo? (variação 92)",
+    "options": [
+      "Elefante",
+      "Baleia azul",
+      "Girafa",
+      "Tubarão"
+    ],
+    "answer": "Baleia azul"
+  },
+  {
+    "id": 142,
+    "question": "Quantos dias tem uma semana? (variação 93)",
+    "options": [
+      "5",
+      "6",
+      "7",
+      "8"
+    ],
+    "answer": "7"
+  },
+  {
+    "id": 143,
+    "question": "Qual animal mia? (variação 94)",
+    "options": [
+      "Cachorro",
+      "Gato",
+      "Vaca",
+      "Cavalo"
+    ],
+    "answer": "Gato"
+  },
+  {
+    "id": 144,
+    "question": "Qual cor resulta de azul + amarelo? (variação 95)",
+    "options": [
+      "Verde",
+      "Roxo",
+      "Laranja",
+      "Preto"
+    ],
+    "answer": "Verde"
+  },
+  {
+    "id": 145,
+    "question": "Quem pintou a Mona Lisa? (variação 96)",
+    "options": [
+      "Van Gogh",
+      "Da Vinci",
+      "Picasso",
+      "Michelangelo"
+    ],
+    "answer": "Da Vinci"
+  },
+  {
+    "id": 146,
+    "question": "Qual é o maior planeta? (variação 97)",
+    "options": [
+      "Terra",
+      "Marte",
+      "Júpiter",
+      "Vênus"
+    ],
+    "answer": "Júpiter"
+  },
+  {
+    "id": 147,
+    "question": "Qual animal é o rei da selva? (variação 98)",
+    "options": [
+      "Tigre",
+      "Leão",
+      "Elefante",
+      "Urso"
+    ],
+    "answer": "Leão"
+  },
+  {
+    "id": 148,
+    "question": "Qual é o oposto de quente? (variação 99)",
+    "options": [
+      "Frio",
+      "Quente",
+      "Morno",
+      "Seco"
+    ],
+    "answer": "Frio"
+  },
+  {
+    "id": 149,
+    "question": "Quantas patas tem uma aranha? (variação 100)",
+    "options": [
+      "6",
+      "8",
+      "10",
+      "12"
+    ],
+    "answer": "8"
+  },
+  {
+    "id": 150,
+    "question": "Qual planeta é conhecido como planeta vermelho? (variação 101)",
+    "options": [
+      "Terra",
+      "Marte",
+      "Júpiter",
+      "Saturno"
+    ],
+    "answer": "Marte"
+  }
+]
